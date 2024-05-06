@@ -183,7 +183,7 @@ parse_config:
     '&num_word': 'NUM'
     '&nav_word': 'NAV'
     '&caps_word_capslock': "Caps\nWord"
-    '&caps_word': '⇪'
+    '&caps_word': 'Caps Word'
     '&td_shift_l': '⇧'
     '&td_shift_r': '⇧'
     '&td_nav_layer': {t: '⏎', h: 'NAV'}
@@ -293,10 +293,10 @@ parse_config:
     C_VOLUME_UP: "VOL\nUP"
     C_BRIGHTNESS_DEC: '☀↓'
     C_BRIGHTNESS_INC: '☀↑'
-    LA(LEFT): ↞
-    LA(RIGHT): ↠
-    LG(LEFT): ⇤
-    LG(RIGHT): ⇥
+    LA(LEFT): '↞'
+    LA(RIGHT): '↠'
+    LG(LEFT): '⇤'
+    LG(RIGHT): '⇥'
     'LS(LC(LG(LALT)))': 'HYPER'
     'RS(RC(RG(RALT)))': 'HYPER'
     'LC(LG(LALT))': 'MEH'

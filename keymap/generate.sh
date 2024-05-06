@@ -15,7 +15,7 @@ keymap -c ./keymap/keymap_config.yaml parse \
 	--output ./keymap/keymap.yaml
 
 keymap -c ./keymap/keymap_config.yaml draw \
-	--select-layers default num nav fun \
+	--select-layers default sym nav fun \
 	--qmk-keyboard chocofi \
 	--output ./keymap/keymap.svg \
 	./keymap/keymap.yaml
