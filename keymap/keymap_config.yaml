@@ -196,6 +196,10 @@ parse_config:
     '&ltog LGUI 7': {t: "Cancel\nSym", h: '⌘'}
     '&ltog LGUI 8': {t: "Cancel\nFunc", h: '⌘'}
     '&ltog LGUI 9': {t: "Cancel\nAdjust", h: '⌘'}
+    '&gresc': '⎋'
+    '&mo NAV': 'Ɲ'
+    '&mo SYM': 'ʂ'
+    # '&super_bspc': '⌫'
   skip_binding_parsing: false
   zmk_keycode_map:
     AMPERSAND: '&'
@@ -284,7 +288,9 @@ parse_config:
     DOWN: ↓
     TAB: ↹
     RETURN: '⏎'
+    RET: '⏎'
     ESCAPE: '⎋'
+    ESC: '⎋'
     C_REWIND: '⏮'
     C_FAST_FORWARD: '⏭'
     C_PAUSE: '⏯'
@@ -310,6 +316,16 @@ parse_config:
     'LG(V)': '⌘V'
     'LC(TAB)': '⌃↹'
     'LS(LC(TAB))': '⌃⇧↹'
+    C_AL_PREV_TASK: '↞'
+    C_AL_NEXT_TASK: '↠'
+    C_PREV: '⏮'
+    C_NEXT: '⏭'
+    C_VOL_UP: 'VOL+'
+    C_VOL_DN: 'VOL-'
+    C_PP: '⏯'
+    PRCNT: '%'
+    SPACE: '⎵'
+    BACKSPACE: '⌫'
 #   zmk_combos:
 #     combo_tog_nav_word: {'a': 'bottom', 'o': -0.25}
 #     combo_tog_num_word: {'a': 'bottom', 'o': 0.0}
