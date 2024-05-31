@@ -326,6 +326,11 @@ parse_config:
     PRCNT: '%'
     SPACE: '⎵'
     BACKSPACE: '⌫'
+    HOME: '⌂'
+    END: '⏚'
+    LBKT: '['
+    RBKT: ']'
+
 #   zmk_combos:
 #     combo_tog_nav_word: {'a': 'bottom', 'o': -0.25}
 #     combo_tog_num_word: {'a': 'bottom', 'o': 0.0}
