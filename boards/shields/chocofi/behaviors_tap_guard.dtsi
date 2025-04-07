@@ -1,0 +1,18 @@
+#define U_TAPPING_TERM 200
+
+#define DOUBLE_TAP_GUARD(NAME, BINDING) \
+/ { \
+  behaviors { \
+    NAME: NAME { \
+      compatible = "zmk,behavior-tap-dance"; \
+      #binding-cells = <0>; \
+      tapping-term-ms = <U_TAPPING_TERM>; \
+      bindings = <&none>, <BINDING>; \
+    }; \
+  }; \
+};
+
+DOUBLE_TAP_GUARD(tg_bootloader, &bootloader)
+DOUBLE_TAP_GUARD(tg_to_mac, &to MAC)
+DOUBLE_TAP_GUARD(tg_to_win, &to WIN)
+DOUBLE_TAP_GUARD(tg_bt_clr, &bt BT_CLR)
