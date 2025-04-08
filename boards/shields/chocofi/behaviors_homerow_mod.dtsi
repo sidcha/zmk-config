@@ -31,10 +31,10 @@
 
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
-            quick-tap-ms = <175>;                // repeat on tap-into-hold
-            require-prior-idle-ms = <150>;         // requires PR #1387
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
-            hold-trigger-on-release;             // requires PR #1423
+            hold-trigger-on-release;
         };
 
         hm_r: homerow_mods_right {
@@ -46,9 +46,9 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM>;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <150>;         // requires PR #1387
+            require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
-            hold-trigger-on-release;             // requires PR #1423
+            hold-trigger-on-release;
         };
 
 
@@ -64,9 +64,9 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick-tap-ms = <175>;
-            // require-prior-idle-ms = <150>;         // requires PR #1387
+            // require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <KEYS_R KEYS_T>;
-            // hold-trigger-on-release;             // requires PR #1423
+            // hold-trigger-on-release;
         };
 
         hm_shift_r: hm_shift_r {
@@ -78,9 +78,9 @@
             flavor = "balanced";
             tapping-term-ms = <HM_TAPPING_TERM_FAST>;
             quick-tap-ms = <175>;
-            // require-prior-idle-ms = <150>;         // requires PR #1387
+            // require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <KEYS_L KEYS_T>;
-            // hold-trigger-on-release;             // requires PR #1423
+            // hold-trigger-on-release;
         };
     };
 };
