@@ -1,0 +1,16 @@
+#include <behaviors/num_word.dtsi> // Requires auto-layer module
+
+&num_word {
+  continue-list = <BSPC DEL DOT COMMA PLUS MINUS STAR FSLH EQUAL>;
+};
+
+/ {
+  behaviors {
+    nav_word: nav_word {
+      compatible = "zmk,behavior-auto-layer";
+      #binding-cells = <1>;
+      continue-list = <LEFT DOWN UP RIGHT HOME PG_DN PG_UP END>;
+      ignore-modifiers;
+    };
+  };
+};
