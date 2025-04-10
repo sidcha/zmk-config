@@ -35,11 +35,11 @@
         compatible = "zmk,conditional-layers";
         win_config_layer {
             if-layers = <W_MEDIA W_MOUSE>;
-            then-layer = <CONFIG>;
+            then-layer = <W_CONFIG>;
         };
         mac_config_layer {
             if-layers = <M_MEDIA M_MOUSE>;
-            then-layer = <CONFIG>;
+            then-layer = <M_CONFIG>;
         };
     };
 };
